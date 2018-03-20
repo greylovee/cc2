@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+//using namespace std;
 
 int main()
 {
@@ -11,5 +11,6 @@ int main()
 	int x= 6;
 	int y=5;
 	int z= x+y;
+	std::cout<< z<<std::endl;
     return 0;
 }
