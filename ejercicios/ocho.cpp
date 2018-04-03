@@ -8,6 +8,19 @@ using namespace std;
 
 int main()
 {
+   int num;
+    cout<<" Ingrese un numero de 5 cifras  :"; cin >> num;
+    int a=num/10000;
+    int b=num/1000%10;
+    int c=num/100%10;
+    int d=num/10%10;
+    int e=num%10;
+    if(a == e){
+        if (b == d)
+            if (c== c)
+                cout <<" ES PALINDROMO " <<endl;}
+    else
+        cout <<" NO ES PALINDROMO " << endl;
    
 }
 
