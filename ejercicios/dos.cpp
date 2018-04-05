@@ -1,6 +1,6 @@
-//Implementar un programa que solicite un n´umero n e imprima los n´umero
-//desde el 1 hasta n separados por comas. OJO, despues del ´ultimo n´umero no debe imprimir
-//la ’,’.
+//Implementar un programa que solicite un nÂ´umero n e imprima los nÂ´umero
+//desde el 1 hasta n separados por comas. OJO, despues del Â´ultimo nÂ´umero no debe imprimir
+//la â€™,â€™.
 
 
 #include <iostream>
@@ -10,7 +10,8 @@ int main()
     int num;
     cout<<"ingrese un numero  :";
     cin>>num;
-    for(int i=1; i <= num;i++ )
+    for(int i=1; i < num;i++ )
         cout<<i<<",";
+    cout<<num;
 
 }
