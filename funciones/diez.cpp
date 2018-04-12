@@ -1,11 +1,12 @@
 
+
 // serie fibonacci
 
 #include <iostream>
 using namespace std;
 int fibonacci(int n)
 {
-    if (n==0 || n == 1){
+    if (n==1 || n == 2){
         return 1;
     }
     else{
@@ -16,11 +17,9 @@ int fibonacci(int n)
 int main()
 
 {
-    int n;
+    int num;
     cout << "ingrese la cantidad de la serie  ";
-    cin >>n;
-    //for(int i = 0;i< n-1;i++)
-        //cout <<"fibonacci "<<i+1<<" es " <<fibonacci(i);
-    cout<<fibonacci(n);
+    cin >>num;
+    cout<<fibonacci(num);
 
 }
