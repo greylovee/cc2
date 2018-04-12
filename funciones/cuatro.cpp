@@ -6,27 +6,31 @@
 #include <iostream>
 
 using namespace std;
-bool  MultCuad(int num,num2)
+#include <iostream>
+
+using namespace std;
+bool  MultCuad(int num1,int num2)
 {
     if(num1 % 2 ==0){
         if (num2 % 2== 0)
             return true;
-    else
-        cout<<" a) NO SON MULTIPLO DE 2"<<endl;
+        return false;
     if (num1 % num2 == 0)
-        cout<< " b)ES MULTIPLO DEL PRIMERO"<<endl;
-    else
-        cout <<" b)NO ES MULTIPLO DEL PRIMERO"<<endl;
-   int potencia = num1*num1;
-
+        return true;
+    return false;
+    int potencia = num1*num1;
     if (potencia == num2)
-        cout <<" c) EL CUADRADO DEL PRIMERO ES IGUAL AL SEGUNDO NUMERO"<<endl;
+        return true;
     else
-        cout<<" c) EL CUADRADO DEL PRIMERO NO ES IGUAL AL SEGUNDO "<<endl;
-
+        return false;
     }
+}
 int main ()
 {
+    int numero, numero2;
+    cout << " ingrese numeros  a evaluar "; cin>>numero;
+    cin>> numero2;
+    cout << MultCuad(numero,numero2);
 
 
 }
