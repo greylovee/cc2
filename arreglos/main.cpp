@@ -19,13 +19,7 @@ void sumaArr (int v[],int tam)
     cout <<total ;
 
 }
-void strcpy( char s[],char t[])
-{
-   for (int i = 0; t[i]= '\0';i++)
-        s[i] = t[i];
 
-
-}
 int tamano(char cad[])
 {
     int tam =0;
