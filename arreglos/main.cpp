@@ -53,6 +53,10 @@ void conc(char s[],char t[])
 
 int main()
 {
+    int l[]= {1,2,3,4,5};
+    int m=4;
+    cout<< sumaRec(l,m);
+    cout << '\n';
     char s[20]="atletico";
     char t[]="demadrid";
     conc(s,t);
