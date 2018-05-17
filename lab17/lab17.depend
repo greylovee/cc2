@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1526568090 source:c:\users\alumno-a\desktop\lab17\main.cpp
+	<iostream>
+	"persona.h"
+
+1526566339 c:\users\alumno-a\desktop\lab17\include\persona.h
+	<iostream>
+
+1526568250 source:c:\users\alumno-a\desktop\lab17\src\persona.cpp
+	"persona.h"
+
