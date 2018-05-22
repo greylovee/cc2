@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1526961843 source:c:\users\casa\documents\cc2 casa\adinamico\main.cpp
+	<iostream>
+	"IntegerArray.h"
+
+1526961847 c:\users\casa\documents\cc2 casa\adinamico\include\integerarray.h
+
+1526961864 source:c:\users\casa\documents\cc2 casa\adinamico\src\integerarray.cpp
+	"IntegerArray.h"
+
