@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1527005275 source:c:\users\alumno-g\desktop\dinamico\main.cpp
+	<iostream>
+	"arreglo.h"
+
+1527005124 source:c:\users\alumno-g\desktop\dinamico\src\arreglo.cpp
+	"arreglo.h"
+	<iostream>
+
+1527006079 c:\users\alumno-g\desktop\dinamico\include\arreglo.h
+
