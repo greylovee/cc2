@@ -13,6 +13,11 @@ class arreglo
         void insertar(int pos, int elem);
         void eliminar(int pos);
         void vaciar();
+        //void ordenarAs();
+        //void ordenarDes();
+        //void primos();
+        void mayor();
+        void menor();
         ~arreglo();
 
 };

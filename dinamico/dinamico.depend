@@ -9,3 +9,13 @@
 
 1527006079 c:\users\alumno-g\desktop\dinamico\include\arreglo.h
 
+1527130488 source:c:\users\casa\desktop\cc2\cc2-master\dinamico\main.cpp
+	<iostream>
+	"arreglo.h"
+
+1527130191 c:\users\casa\desktop\cc2\cc2-master\dinamico\include\arreglo.h
+
+1527130521 source:c:\users\casa\desktop\cc2\cc2-master\dinamico\src\arreglo.cpp
+	"arreglo.h"
+	<iostream>
+
