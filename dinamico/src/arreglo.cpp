@@ -58,13 +58,37 @@ void arreglo :: eliminar (int pos)
 }
 void arreglo :: vaciar ()
 {
-    int *nuevo = new int[0];
     delete []data;
-    data= nuevo;
+    data= new int[0];
     size = 0;
 
 }
+void arreglo :: ordenarAs()
+{
 
+     for (int i = size - 1; i > 0; i--){
+        for (int j = 0; j < i; j++){
+            if(data[j]> data[j+1]){
+                data[size]=data[j];
+                data[j]=data[j+1];
+                data[j+1]=data[size];
+            }
+        }
+     }
+}
+void arreglo :: ordenarDes()
+{
+    for (int i = size - 1; i > 0; i--){
+        for (int j = 0; j < i; j++){
+            if(data[j]< data[j+1]){
+                data[size]=data[j];
+                data[j]=data[j+1];
+                data[j+1]=data[size];
+            }
+
+        }
+    }
+}
 void arreglo::mayor()
 {
     int mayor = data[0];
@@ -85,6 +109,16 @@ void arreglo :: menor()
     }
     cout<<menor<<endl;
 }
+void arreglo :: promedio()
+{
+    float suma=0.0;
+    for(int i=0;i<size;i++)
+    {
+        suma=suma+data[i];
+    }
+    cout<<"el promedio es: "<<suma/2.0<<endl;
+}
+
 arreglo::~arreglo(){
     delete []data;
 }
