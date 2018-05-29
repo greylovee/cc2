@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1527608473 source:c:\users\alumno-g\desktop\poligono\main.cpp
+	<iostream>
+	"polygon.h"
+	"rectangle.h"
+	"triangle.h"
+
+1527608626 source:c:\users\alumno-g\desktop\poligono\src\polygon.cpp
+	"polygon.h"
+	<iostream>
+
+1527609153 c:\users\alumno-g\desktop\poligono\include\polygon.h
+
+1527607413 source:c:\users\alumno-g\desktop\poligono\src\rectangle.cpp
+	"rectangle.h"
+	"polygon.h"
+
+1527609153 c:\users\alumno-g\desktop\poligono\include\rectangle.h
+	"polygon.h"
+
+1527607413 source:c:\users\alumno-g\desktop\poligono\src\triangle.cpp
+	"triangle.h"
+	"polygon.h"
+
+1527609153 c:\users\alumno-g\desktop\poligono\include\triangle.h
+	"polygon.h"
+
