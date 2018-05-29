@@ -7,9 +7,12 @@ class polygon
    protected :
        int width, height;
    public:
-       polygon (int a,int b) : width(a),height (b) {}
-        //void set_values(int a,int b);
-        virtual int area(void)=0;
+
+        //1//void set_values(int a,int b);
+        //2//virtual int area ();
+        //3//virtual int area (void) =0 ;
+         polygon (int a,int b) : width(a),height (b) {}
+        int area(void){ return 0;};
         void printarea();
 
 };
