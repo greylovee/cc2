@@ -119,6 +119,80 @@ void arreglo :: promedio()
     cout<<"el promedio es: "<<suma/2.0<<endl;
 }
 
+void arreglo :: primos ()
+{
+    for(int i=0;i<size;i++){
+        int x=0;
+        for(int j=1;j<data[i]+1;j++){
+            if(data[i]%i==0)
+                x++;
+        }
+    }
+    if(x!=2)
+        cout<< ",";
+    else
+        cout<<data[i];
+
+}
+void arreglo :: menorPrimo()
+{
+    int *nuevo = new int [size];
+    for(int i=0;i<size;i++){
+        int x= 0;
+        for(int j=1;j<data[i]+1j++){
+            if(data[i]%j==0)
+                x++;
+        }
+
+    if(x!=2)
+        cout<< ",";
+    else
+        nuevo[i]= data[j];
+    }
+    int menor=nuevo[0];
+    for(int i=0; i<size ;i++ ){
+        if(nuevo[i] < menor ){
+            menor=nuevo[i];
+        }
+    }
+    delete[]data;
+    cout << menor;
+}
+void arreglo :: mayorPrimo()
+{
+    int *nuevo = new int [size];
+    for (int i=0;i<data[i]+1;i++){
+        if(data[j]%i==0){
+            x++;
+        }
+
+    if(x!=2)
+        cout << ",";
+    else
+        nuevo[i]= data[i];
+    }
+    int mayor = nuevo[0];
+    for(int i = 0;i<tam ; i++){
+        if (nuevo[i]>mayor){
+            mayor=nuevo[i];
+        }
+    }
+    delete[]data;
+    cout<<mayor;
+}
+void arreglo :: siPrimo(int pos)
+{
+    int x=0;
+    for(int i=1;i<data[pos]+1;i++){
+        if(data[pos]%i==0)
+            x++;
+    }
+    if(x!=2)
+        cout << "no es primo" << endl;
+    else
+        cout << "es primo" <<endl;
+}
+
 arreglo::~arreglo(){
     delete []data;
 }
