@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1528819520 source:c:\users\alumno-g\desktop\templates\main.cpp
+	<iostream>
+	"container.h"
+
+1528819772 c:\users\alumno-g\desktop\templates\include\point.h
+
+1528819702 source:c:\users\alumno-g\desktop\templates\src\point.cpp
+	"point.h"
+
+1528819544 c:\users\alumno-g\desktop\templates\include\container.h
+	<iostream>
+
+1528819553 source:c:\users\alumno-g\desktop\templates\src\container.cpp
+	"container.h"
+
