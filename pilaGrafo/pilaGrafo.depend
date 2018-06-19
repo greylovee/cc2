@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\alumno-g\desktop\pilagrafo\main.cpp
+	<iostream>
+
+1529422052 source:c:\users\alumno-g\desktop\pilagrafo\src\geometry.cpp
+	<cmath>
+	"geometry.h"
+
+1529422052 c:\users\alumno-g\desktop\pilagrafo\include\geometry.h
+
