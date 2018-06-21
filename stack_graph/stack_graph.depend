@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1529590425 source:c:\users\docente-a\desktop\stack_graph\src\graph.cpp
+	"Graph.h"
+	<stdexcept>
+
+1529590560 c:\users\docente-a\desktop\stack_graph\include\graph.h
+	<map>
+	<vector>
+
+1529589680 source:c:\users\docente-a\desktop\stack_graph\src\stack.cpp
+	"Stack.h"
+
+1529589692 c:\users\docente-a\desktop\stack_graph\include\stack.h
+	<vector>
+
