@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\casa\documents\cc2 casa\grafo\main.cpp
+	<iostream>
+
+1529546139 source:c:\users\casa\documents\cc2 casa\grafo\src\graph.cpp
+	"Graph.h"
+	<vector>
+	<stdio.h>
+	<iostream>
+	<stdexcept>
+	<map>
+
+1529546065 c:\users\casa\documents\cc2 casa\grafo\include\graph.h
+	<vector>
+	<stdio.h>
+	<iostream>
+	<stdexcept>
+	<map>
+
