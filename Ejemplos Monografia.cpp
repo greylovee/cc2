@@ -69,3 +69,34 @@ int main()
 
     return 0;
 }
+//Arreglo Dinámico
+class arreglo
+{
+    int size;
+    int *data;
+    public:
+        arreglo(int size, int arr[]){
+             this -> size = size;
+            this -> data = new int [size];
+            for (int i=0; i<size ; i++){
+            data [i]= arr [i];
+            }
+        }
+        void insertarAtras(int elem){
+            int *nuevo = new int [size++];
+            size++;
+            for (int i=0; i< size-1; i++){
+                nuevo[i]= data[i];
+            }
+            nuevo[size-1]=elem;
+            delete[] data;
+            data=nuevo;
+        }
+};
+int main () 
+{
+    int arr[]= {4,2,3,6,8};
+    arreglo a(5,arr);
+    a.insertasAtras(7);
+}
+
