@@ -99,4 +99,135 @@ int main ()
     arreglo a(5,arr);
     a.insertasAtras(7);
 }
+//Uso de templates 
+class Vector
+{
+    private:
+        T * Pvec; // Variable tipo T como puntero
+        int indi; // Controla el índice del vector
+        int elemen; // Numero de elementos del vector
 
+    public:
+ // constructor inicializa el vector cuando se crea
+        Vector(int n)
+        {   Pvec = new T[n]; // Reserva un espacio de memoria
+            indi = 0; // Es el índice del vector
+            elemen = n; // Numero de elementos que posee
+ };
+  //   Destructor libera memoria
+
+        ~Vector( )
+
+        {
+
+            delete [] Pvec;
+
+        }
+
+ // Sobrecarga de operador []
+
+        T& operator [] (int i)
+
+        { return Pvec[i];
+
+        }
+
+ // Agrega un nuevo elemento
+
+        void agregar(T i)
+
+        { Pvec[indi++]=i;
+
+        }
+
+ // Función estallena, verifica si el vector tiene elementos
+
+        bool estallena( )
+
+        { return (indi >= elemen);
+
+        }
+
+ // Función vervector elementos que posee
+
+        void vervector()
+
+        {       cout << "Elementos del vector..." << endl;
+
+                for(int i = 0; i < indi; i++)
+
+                    cout << "--> " << Pvec[i] << endl;
+
+        }
+
+};
+
+void opciones( )
+
+{ cout << "1. Agregar elemento" << endl;
+
+ cout << "2. Espacio del vector" << endl;
+
+ cout << "3. Ver Vector" << endl;
+
+ cout << "4. Salir " << endl;
+
+ cout << "Seleccione :";
+
+}
+
+int main( ){
+
+    Vector <int> V(5); // Definiendo la variable vector de tipo entero
+
+    int ele;
+
+    int opc;
+
+    do
+
+    {   opciones();
+
+        cin >> opc;
+
+        switch(opc)
+
+        { case 1:
+
+            cout << "Digitar elemento a agregar:";
+
+            cin >> ele;
+
+            V.agregar(ele);
+
+            system("cls");
+
+            break;
+
+        case 2:
+
+            if (V.estallena())
+
+                cout << "El vector esta lleno..." << endl;
+
+            else
+
+                cout << "El Vector esta vacio..." << endl;
+
+            break;
+
+        case 3:
+
+            V.vervector();
+
+            break;
+
+        }
+
+    }while(opc != 4);
+
+    system("pause");
+
+    return 0;
+
+}
