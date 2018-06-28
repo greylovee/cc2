@@ -5,7 +5,7 @@ class Vehicle
 public:
     virtual void useVehicle() = 0;
 };
-class FordFigo : public Vehicle
+class FordFigo : public Vehicle // uso de herencia y polimorfismo
 {
 public:
     void useVehicle()
